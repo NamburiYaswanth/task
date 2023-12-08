@@ -1,0 +1,162 @@
+#sai{
+    display:flex;
+    justify-content: space-between;
+    background-color:#7952b3;
+    height:65px;
+    padding-left: 90px;
+    padding-top:0px;
+}
+#list{
+    display:inline-block;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color:white;
+}
+.icon{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#icons{
+    margin-right: 200px;
+    font-size: 16px;
+    color:white;
+}
+#btn{
+    color:rgb(95, 76, 29);
+    background-color:#7952b3;
+}
+#boot{
+margin-top: 25px;
+font-size: 20px;
+color:white;
+padding:30px;
+}
+#text{
+   text-align: center;
+   margin-top: 12px;
+   background-color: #563d7c;
+   height:55px;
+   margin-bottom: 0px;
+   color:white;
+   padding-top: 20px;
+}
+#btn23{
+    border:1px solid rgb(11, 11, 11);
+    width:229px;
+    display: flex;
+    margin-left: 139px;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top:0px;
+    height:40px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    z-index: 1000; /* Adjust z-index as needed */
+  }
+  #bar{
+    position: sticky;
+    top:0px;
+  }
+  #nav.show {
+    display: block;
+  }
+  #section{
+    display: flex;
+    flex-direction:row;
+  }
+  #para{
+    height:500px;
+    width:260px;
+   
+    gap:12px;
+  }
+  #para div{
+    margin-left: 130px;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  #para div i {
+    margin-right: 5px;
+  }
+  #content{
+    width:900px;
+    height:auto;
+    margin-left: 50px;
+  }
+  #heading{
+    display: flex;
+    justify-content: space-between;
+  }
+ #git{
+    padding: 10px;
+    height:40px;
+    margin-top: 10px;
+    padding: 6px;;
+ }
+ #text1{
+    font-size: 20px;;
+ }
+ img{
+    height:140px;
+    margin-top: 15px;
+    margin-left: 15px;
+ }
+ #img{
+    display: flex;
+    gap:20px;
+    width:400px;
+    background-color:  rgba(0,0,0,0.05);
+    border-radius: 5px;
+ }
+ #text2{
+    font-size: 17px;
+ }
+ #link{
+  color:orange;
+  height:85px;
+  overflow-x: auto;
+  background-color:  rgba(0,0,0,0.05);
+ }
+ span{
+    color:orange;
+ }
+ #js{
+    font-size: 17px;
+ }
+ span{
+    font-size: 18px;
+ }
+ #meta{
+   margin-top: 35px;
+   font-size: 19px;
+ }
+ #right{
+   margin-left: 55px;
+   margin-top: 20px;
+ }
+ #right div{
+   margin-top: 16px;
+ }
+ #foot{
+   display: flex;
+   justify-content: space-between;
+   justify-content: space-around;
+   padding-top: 120px;
+   background-color: #f8f9fa;
+   height:450px;
+ }
+ #foot2 div{
+   margin-top: 6px;
+ }
+ #strap{
+   font-size: 25px;
+ }
